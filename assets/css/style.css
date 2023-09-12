@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/12/b7/32/12b732e1fa880be858f0a84dffd650c0.gif");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  margin: 0px;
+  padding: 0px;
+}
+.keys {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.key {
+  width: 160px;
+  height: 130px;
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+kbd {
+  font-size: 45px;
+  font-family: sans-serif;
+  margin-left: 60px;
+  font-weight: 800;
+  position: relative;
+  top: 15px;
+}
+span {
+  font-size: 17px;
+  position: relative;
+  top: 17px;
+  text-align: center;
+  margin-left: 45px;
+}
+
+.played {
+  background-color: rgb(26, 229, 247);
+  color: rgb(0, 0, 0);
+  transform: scale(1.01);
+  box-shadow: 0 2px 4px rgba(5, 228, 249, 0.5);
+}
+.title {
+  color: aqua;
+  font-size: 50px;
+  margin-left: 650px;
+}
